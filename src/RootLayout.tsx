@@ -124,7 +124,7 @@ export default function RootLayout() {
                 <img
                   alt="Clover icon"
                   src={CloverIcon}
-                  className="h-16 w-auto"
+                  className="h-10 w-auto mr-2"
                 />
                 <h1 className="text-gray-400 font-bold">
                   Clover Cost Estimator
@@ -186,7 +186,7 @@ export default function RootLayout() {
           </button>
           <div className="flex-1 text-sm/6 font-semibold text-white">
             <div className="flex justify-center items-center">
-              <img alt="Clover icon" src={CloverIcon} className="h-12 w-auto" />
+              <img alt="Clover icon" src={CloverIcon} className="h-8 mr-2 w-auto" />
               <h1 className="text-gray-400 font-bold">Clover Cost Estimator</h1>
             </div>
           </div>
