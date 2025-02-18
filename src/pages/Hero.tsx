@@ -48,9 +48,9 @@ const Hero = () => {
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-30 lg:flex lg:px-8 lg:py-12 lg:h-screen sm:h-[1400px]">
         <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-8">
           <img alt="Clover Icon" src={CloverIcon} className="h-11" />
-          <h1 className="mt-16 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-            Elevate your business with Clover's powerful POS systems
-          </h1>
+            <h1 className="mt-16 text-pretty lg:text-6xl font-semibold tracking-tight text-white sm:text-7xl">
+              Discover the right plans and devices for your business with Clover
+            </h1>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
             Boost Your Workflow—now faster, more powerful, and portable
           </p>
