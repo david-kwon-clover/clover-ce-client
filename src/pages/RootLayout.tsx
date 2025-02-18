@@ -13,7 +13,7 @@ import {
   XMarkIcon,
   UserCircleIcon
 } from "@heroicons/react/24/outline";
-import CloverIcon from "./assets/clover-icon.svg";
+import CloverIcon from "../assets/clover-icon.svg";
 import { NavLink } from "react-router-dom";
 
 const navigation = [
@@ -189,16 +189,13 @@ export default function RootLayout() {
           </div>
           <a href="#">
             <span className="sr-only">Your profile</span>
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              className="size-8 rounded-full bg-gray-800"
-            />
+            <UserCircleIcon className="size-8 rounded-full bg-gray-800 text-white" />
           </a>
         </div>
 
         <main className="py-10 lg:pl-72">
-          <div className="px-4 sm:px-6 lg:px-8">{/* Your content */}</div>
+          <div className="px-4 sm:px-6 lg:px-8">
+          </div>
         </main>
       </div>
     </>
