@@ -14,7 +14,7 @@ import {
   UserCircleIcon
 } from "@heroicons/react/24/outline";
 import CloverIcon from "../assets/clover-icon.svg";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "/", icon: HomeIcon, current: true },
@@ -117,7 +117,7 @@ export default function RootLayout() {
         </Dialog>
 
         {/* Static sidebar for desktop */}
-        <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
+        <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-60 lg:flex-col">
           {/* Sidebar component, swap this element with another sidebar if you like */}
           <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-900 px-6 py-6">
             <div className="flex h-16 shrink-0 items-center">
@@ -193,9 +193,8 @@ export default function RootLayout() {
           </a>
         </div>
 
-        <main className="py-10 lg:pl-72">
-          <div className="px-4 sm:px-6 lg:px-8">
-          </div>
+        <main>
+          <Outlet />
         </main>
       </div>
     </>
