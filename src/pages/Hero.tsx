@@ -48,20 +48,20 @@ const Hero = () => {
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-30 lg:flex lg:px-8 lg:py-12 lg:h-screen sm:h-[1400px]">
         <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-8">
           <img alt="Clover Icon" src={CloverIcon} className="h-11" />
-            <h1 className="mt-16 text-pretty lg:text-6xl font-semibold tracking-tight text-white sm:text-7xl">
-              Discover the right plans and devices for your business with Clover
+            <h1 className="mt-16 text-pretty lg:text-6xl font-semibold tracking-tight text-white sm:text-5xl">
+              Discover the solutions to power your business with Clover
             </h1>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
             Boost Your Workflow—now faster, more powerful, and portable
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
-              href="#"
-              className="rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+              href="/cost-estimator"
+              className="rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
             >
               Get started
             </a>
-            <a href="#" className="text-sm/6 font-semibold text-white">
+            <a href="https://www.clover.com/" target="_blank" className="text-sm/6 font-semibold text-white">
               Learn more <span aria-hidden="true">→</span>
             </a>
           </div>
