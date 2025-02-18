@@ -52,7 +52,7 @@ const Hero = () => {
               Discover the solutions to power your business with Clover
             </h1>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
-            Boost Your Workflow—now faster, more powerful, and portable
+            Craft your plan, choose your devices - find the the right price
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
